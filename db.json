@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "eqber0",
+      "fullname": "Bilgehan Yılmaz",
+      "password": "U2FsdGVkX1+S3t3M/o7PyvTfH9/TYOqVKluVGoB3d0c=",
+      "id": 1
+    },
+    {
+      "username": "tore",
+      "fullname": "Tolunay Kurttutar",
+      "password": "U2FsdGVkX187Z+b3tLJlOQZdK5Up3uqLIjZweMUcrVY=",
+      "id": 2
+    }
+  ],
+  "bookmarks": [],
+  "categories": []
+}

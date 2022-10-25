@@ -9,12 +9,8 @@
       <option value="">React</option>
       <option value="">Sosyal</option>
     </select>
-    <textarea
-      placeholder="Açıklama"
-      class="input mb-3"
-      cols="30"
-      rows="10"
-    ></textarea>
+    <textarea placeholder="Açıklama" class="input mb-3" cols="30" rows="10">
+    </textarea>
     <div class="flex items-center justify-end gap-x-1">
       <button class="secondary-button">İptal</button>
       <button class="default-button">Kaydet</button>
