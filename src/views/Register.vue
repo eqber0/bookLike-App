@@ -46,10 +46,9 @@ export default {
   },
   methods: {
     onSave() {
-      const key = "bookline123!456?"
-      const password = Crypto.AES.encrypt(
+      const password = Crypto.HmacSHA1(
         this.userData.password,
-        key
+        this.$store.getters._saltKey
       ).toString()
 
       this.$appAxios
@@ -60,10 +59,6 @@ export default {
         .then((registered_user_response) => {
           this.$router.push({ name: "HomePage" })
         })
-      // const decryptedPassword = Crypto.AES.decrypt(
-      //   cryptedPassword,
-      //   key
-      // ).toString(Crypto.enc.Utf8)
     },
   },
 }

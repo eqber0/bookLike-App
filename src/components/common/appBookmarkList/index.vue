@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="p-2 grid grid-cols-8 gap-4">
+  <div class="p-4">
+    <div class="d-flex gap-4 flex-wrap">
       <bookmarkListItem v-for="i in 10" :key="i" />
     </div>
   </div>
