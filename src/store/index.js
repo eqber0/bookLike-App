@@ -21,6 +21,9 @@ export default createStore({
     setUser(state, user) {
       state.user = user
     },
+    logoutUser(state, user) {
+      state.user = null
+    },
   },
   plugins: [
     createPersistedState({
