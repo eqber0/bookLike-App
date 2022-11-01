@@ -13,6 +13,56 @@
       "id": 2
     }
   ],
-  "bookmarks": [],
-  "categories": []
+  "bookmarks": [
+    {
+      "title": "Vue 1",
+      "url": "Vue 1",
+      "categoryId": 1,
+      "description": "Vue 1",
+      "userId": 1,
+      "created_at": "2022-11-01T14:36:06.810Z",
+      "id": 1
+    },
+    {
+      "title": "Vue 2",
+      "url": "Vue 2",
+      "categoryId": 1,
+      "description": "Vue 2",
+      "userId": 1,
+      "created_at": "2022-11-01T14:36:12.484Z",
+      "id": 2
+    },
+    {
+      "title": "React ",
+      "url": "React ",
+      "categoryId": 2,
+      "description": "React ",
+      "userId": 1,
+      "created_at": "2022-11-01T14:36:18.686Z",
+      "id": 3
+    },
+    {
+      "title": "Angular",
+      "url": "Angular",
+      "categoryId": 3,
+      "description": "Angular",
+      "userId": 1,
+      "created_at": "2022-11-01T14:36:24.246Z",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "VueJs"
+    },
+    {
+      "id": 2,
+      "name": "ReactJs"
+    },
+    {
+      "id": 3,
+      "name": "AngularJs"
+    }
+  ]
 }

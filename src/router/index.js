@@ -50,8 +50,6 @@ router.beforeEach((to, from, next) => {
   } else {
     next()
   }
-  console.log("to", to)
-  console.log("from", from)
 })
 
 export default router

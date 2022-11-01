@@ -2,10 +2,11 @@
   <div class="bg-white flex flex-col gap-x-3 rounded-md shadow-sm">
     <div class="p-3">
       <a
-        href="#"
+        :href="item.url"
         class="hover:text-black font-bold text-l mb-1 text-gray-600 text-center"
-        >Vue3 Dokümantasyon</a
       >
+        {{ item.title }}
+      </a>
       <div class="flex items-center justify-center mt-2 gap-x-1">
         <button class="like-btn group">
           <svg
@@ -51,19 +52,37 @@
               />
             </svg>
             <p class="details-container">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Similique nemo consequatur a accusamus assumenda laborum
-              consequuntur explicabo dolor, odit eligendi voluptate illum itaque
-              accusantium, cumque tenetur cupiditate illo libero dolores!
+              {{ item.description }}
             </p>
           </button>
         </div>
       </div>
       <div class="text-xs text-gray-400 mt-2 flex justify-between">
-        <a href="#" class="hover:text-black"> Gökhan Kandemir </a>
-        <span>14 Mart</span>
+        <a href="#" class="hover:text-black"> {{ userName }} </a>
+        <span> 14 Mart </span>
       </div>
     </div>
-    <div class="bg-red-200 p-1 text-red-900 text-center text-sm">Vue.js</div>
+    <div class="bg-red-200 p-1 text-red-900 text-center text-sm">
+      {{ categoryName }}
+    </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    item: {
+      type: Object,
+      required: true,
+    },
+  },
+  computed: {
+    categoryName() {
+      return this.item?.category?.name || "-"
+    },
+    userName() {
+      return this.item?.user?.fullname || "-"
+    },
+  },
+}
+</script>
