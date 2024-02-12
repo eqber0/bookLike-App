@@ -1,4 +1,5 @@
-# aa
+# bookLike App
+[Gökhan Kandemir's Vue3 Bootcamp](https://www.youtube.com/playlist?list=PL_f2F0Oyaj48Y0Uv4BTlqzK7INi92D2wp) YouTube video series. I was learning with videos and while watching practicing in my local files.
 
 ## Project setup
 ```
