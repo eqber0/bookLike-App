@@ -1,5 +1,5 @@
 # bookLike App
-[Gökhan Kandemir's Vue3 Bootcamp](https://www.youtube.com/playlist?list=PL_f2F0Oyaj48Y0Uv4BTlqzK7INi92D2wp) YouTube video series. I was learning with videos and while watching practicing in my local files.
+I learned from Gökhan Kandemir's Vue3 Bootcamp, available on YouTube at this [playlist](https://www.youtube.com/playlist?list=PL_f2F0Oyaj48Y0Uv4BTlqzK7INi92D2wp). As I watched the videos, I simultaneously practiced the concepts by coding in my local environment.
 
 ## Project setup
 ```
